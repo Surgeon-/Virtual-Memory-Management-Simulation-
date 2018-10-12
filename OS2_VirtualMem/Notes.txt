@@ -1,0 +1,27 @@
+
+TODO Napravi sinhronizaciju. ~~~~~~~~~~~~
+TODO Proveri delete_segment. ~~~~~~~~~~~~~~~
+TODO Koristi zakljucavanje u metodama procesa ~~~~~~~~~~~~~
+
+DONE Nova prava pristupa kod deljenih segmenata.
+
+// ================================================================================= //
+
+DONE Sredi sve vezano za NULL_CLUSTER i MAX_CLUSTER
+DONE Maks. velicina diska 2^16 pg.
+DONE Dvt_find_free da markuje
+DONE Kada se stranice procesa unistavaju, treba osigurati da su nadstranice u mem.
+DONE Napravi/povezi origin table.
+DONE zakljucavanje stranica u KS-u.
+DONE Oslobodi mesto u pcb_vec kada se pcb unisti.
+DONE Sredi rng-jeve.
+DONE Kada se radi evict_children ne treba dirati deskriptore deljenih stranica.
+DONE Nova prava pristupa kod deljenih segmenata.
+
+VALJDA OK - Kada se brise shared segment azurirati stvari.
+
+// ================================================================================= //
+
+
+
+

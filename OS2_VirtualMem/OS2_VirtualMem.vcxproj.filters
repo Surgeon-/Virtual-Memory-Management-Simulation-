@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Postavka">
+      <UniqueIdentifier>{e0c97547-7540-45fe-8e94-7b47004825c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Local">
+      <UniqueIdentifier>{045cb6b7-a7b5-4fe8-8452-df0f920671a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Test">
+      <UniqueIdentifier>{5e938a7a-9cae-4b40-afc4-b3bb1d608cb9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Test">
+      <UniqueIdentifier>{8f9b2949-dc6b-44dc-9298-0ac3dceed4ef}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Process.h">
+      <Filter>Header Files\Postavka</Filter>
+    </ClInclude>
+    <ClInclude Include="System.h">
+      <Filter>Header Files\Postavka</Filter>
+    </ClInclude>
+    <ClInclude Include="vm_declarations.h">
+      <Filter>Header Files\Postavka</Filter>
+    </ClInclude>
+    <ClInclude Include="KernelSystem.hpp">
+      <Filter>Header Files\Local</Filter>
+    </ClInclude>
+    <ClInclude Include="VmDecl.hpp">
+      <Filter>Header Files\Local</Filter>
+    </ClInclude>
+    <ClInclude Include="IntegralTypes.hpp">
+      <Filter>Header Files\Local</Filter>
+    </ClInclude>
+    <ClInclude Include="Macros.hpp">
+      <Filter>Header Files\Local</Filter>
+    </ClInclude>
+    <ClInclude Include="Part.h">
+      <Filter>Header Files\Postavka</Filter>
+    </ClInclude>
+    <ClInclude Include="KernelProcess.hpp">
+      <Filter>Header Files\Local</Filter>
+    </ClInclude>
+    <ClInclude Include="ConsVec.hpp">
+      <Filter>Header Files\Local</Filter>
+    </ClInclude>
+    <ClInclude Include="HelperStructs.hpp">
+      <Filter>Header Files\Local</Filter>
+    </ClInclude>
+    <ClInclude Include="PSpecFunc.hpp">
+      <Filter>Header Files\Local</Filter>
+    </ClInclude>
+    <ClInclude Include="ProcessTest.h">
+      <Filter>Header Files\Test</Filter>
+    </ClInclude>
+    <ClInclude Include="SystemTest.h">
+      <Filter>Header Files\Test</Filter>
+    </ClInclude>
+    <ClInclude Include="RandomNumberGenerator.h">
+      <Filter>Header Files\Test</Filter>
+    </ClInclude>
+    <ClInclude Include="SsegControlBlock.hpp">
+      <Filter>Header Files\Local</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="KernelSystem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="KernelProcess.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="System.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Process.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ZMain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SystemTest.cpp">
+      <Filter>Source Files\Test</Filter>
+    </ClCompile>
+    <ClCompile Include="RandomNumberGenerator.cpp">
+      <Filter>Source Files\Test</Filter>
+    </ClCompile>
+    <ClCompile Include="ProcessTest.cpp">
+      <Filter>Source Files\Test</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files\Test</Filter>
+    </ClCompile>
+    <ClCompile Include="YMain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\..\!Partition\part.lib">
+      <Filter>Resource Files</Filter>
+    </Library>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Notes.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

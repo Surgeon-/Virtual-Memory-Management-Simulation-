@@ -1,0 +1,5 @@
+﻿  main.cpp
+c:\users\jovan\desktop\dev\c,c++\os2_virtualmem\os2_virtualmem\main.cpp(33): warning C4244: 'initializing': conversion from 'uint64_t' to 'unsigned int', possible loss of data
+c:\users\jovan\desktop\dev\c,c++\os2_virtualmem\os2_virtualmem\main.cpp(37): warning C4244: 'initializing': conversion from 'uint64_t' to 'unsigned int', possible loss of data
+  OS2_VirtualMem.vcxproj -> C:\Users\Jovan\Desktop\Dev\C,C++\OS2_VirtualMem\Debug\OS2_VirtualMem.exe
+  OS2_VirtualMem.vcxproj -> C:\Users\Jovan\Desktop\Dev\C,C++\OS2_VirtualMem\Debug\OS2_VirtualMem.pdb (Full PDB)

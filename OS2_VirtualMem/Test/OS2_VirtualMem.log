@@ -1,0 +1,19 @@
+﻿  KernelSystem.cpp
+  KernelProcess.cpp
+  Generating Code...
+  Compiling...
+  ZMain.cpp
+  Generating Code...
+  main.cpp
+c:\users\jovan\desktop\dev\c,c++\os2_virtualmem\os2_virtualmem\main.cpp(33): warning C4244: 'initializing': conversion from 'uint64_t' to 'unsigned int', possible loss of data
+c:\users\jovan\desktop\dev\c,c++\os2_virtualmem\os2_virtualmem\main.cpp(37): warning C4244: 'initializing': conversion from 'uint64_t' to 'unsigned int', possible loss of data
+  System.cpp
+  ProcessTest.cpp
+c:\users\jovan\desktop\dev\c,c++\os2_virtualmem\os2_virtualmem\processtest.cpp(36): warning C4018: '<': signed/unsigned mismatch
+c:\users\jovan\desktop\dev\c,c++\os2_virtualmem\os2_virtualmem\processtest.cpp(127): warning C4018: '<': signed/unsigned mismatch
+c:\users\jovan\desktop\dev\c,c++\os2_virtualmem\os2_virtualmem\processtest.cpp(132): warning C4018: '<': signed/unsigned mismatch
+c:\users\jovan\desktop\dev\c,c++\os2_virtualmem\os2_virtualmem\processtest.cpp(136): warning C4244: '=': conversion from 'VirtualAddress' to 'char', possible loss of data
+  Process.cpp
+  Generating Code...
+  OS2_VirtualMem.vcxproj -> C:\Users\Jovan\Desktop\Dev\C,C++\OS2_VirtualMem\Test\OS2_VirtualMem.exe
+  OS2_VirtualMem.vcxproj -> C:\Users\Jovan\Desktop\Dev\C,C++\OS2_VirtualMem\Test\OS2_VirtualMem.pdb (Full PDB)

@@ -1,0 +1,14 @@
+﻿  KernelProcess.cpp
+  KernelSystem.cpp
+  ZMain.cpp
+  Process.cpp
+  System.cpp
+part.lib(part.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in KernelProcess.obj
+part.lib(part.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in KernelProcess.obj
+part.lib(part.obj) : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/OPT:ICF' specification
+part.lib(PartitionImpl.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in KernelProcess.obj
+part.lib(PartitionImpl.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in KernelProcess.obj
+LINK : warning LNK4098: defaultlib 'MSVCRTD' conflicts with use of other libs; use /NODEFAULTLIB:library
+part.lib(PartitionImpl.obj) : error LNK2001: unresolved external symbol __imp___invalid_parameter
+part.lib(PartitionImpl.obj) : error LNK2001: unresolved external symbol __imp___CrtDbgReportW
+C:\Users\Jovan\Desktop\Dev\C,C++\OS2_VirtualMem\Release\OS2_VirtualMem.exe : fatal error LNK1120: 2 unresolved externals
